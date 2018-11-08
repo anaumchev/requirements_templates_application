@@ -1,9 +1,8 @@
 note
-	description: "Summary description for {DAY_LAST_MINUTE}."
-	author: ""
-	date: "$Date$"
-	revision: "$Revision$"
-
+	EIS:
+		"protocol=URI",
+		"src=https://docs.google.com/document/d/1RV38YvrCvhXrVNrVh2I5_hhFDPmKHSOGOZ04aHKdGhg/edit?disco=AAAACQd6Sfk"
+		
 expanded class
 	DAY_LAST_MINUTE
 
