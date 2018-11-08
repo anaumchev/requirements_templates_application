@@ -7,10 +7,12 @@
 		</option>
 		<setting name="console_application" value="true"/>
 		<capability>
+			<catcall_detection support="none"/>
 			<concurrency support="none"/>
 			<void_safety support="none" use="none"/>
 		</capability>
 		<library name="base" location="$ISE_LIBRARY\library\base\base.ecf"/>
+		<library name="requirements_templates" location="C:\Program Files\Eiffel Software\EiffelStudio 18.07 GPL\library\requirements_templates\requirements_templates.ecf"/>
 		<cluster name="requirements_templates_application" location=".\" recursive="true">
 			<file_rule>
 				<exclude>/.svn$</exclude>
