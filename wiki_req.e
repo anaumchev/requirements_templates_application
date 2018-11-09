@@ -1,14 +1,10 @@
-note
-	EIS:
-		"protocol=URI",
-		"src=https://docs.google.com/document/d/1RV38YvrCvhXrVNrVh2I5_hhFDPmKHSOGOZ04aHKdGhg/edit?disco=AAAACQd6Sfo"
-
 expanded class
 	WIKI_REQ
 
 inherit
 
-	UNIVERSALITY_BETWEEN [CLOCK, DAY_LAST_MINUTE, DAY_LAST_MINUTE, MIDNIGHT]
+	UNIVERSALITY_BETWEEN [CLOCK,
+												DAY_LAST_MINUTE, DAY_LAST_MINUTE, MIDNIGHT]
 
 	CLOCK_REQUIREMENT
 
@@ -19,4 +15,10 @@ feature
 			Result := 60
 		end
 
+note
+	EIS:
+		"protocol=URI",
+		"src=https://docs.google.com/document/d/1RV38YvrCvhXrVNrVh2I5_hhFDPmKHSOGOZ04aHKdGhg/edit?disco=AAAACQd6Sfo"
 end
+
+
