@@ -14,25 +14,39 @@ feature
 
 	run
 		local
-			clock_req: CLOCK_REQUIREMENTS
 			clock: CLOCK
 		do
+			print (({STATEMENT_1}).default)
+
+			print (({STATEMENT_2}).default)
+
+			print (({STATEMENT_3}).default)
+
+			print (({STATEMENT_4_1}).default)
+
+			print (({STATEMENT_4_2}).default)
+
 			create clock
+--			({FIRST_SENTENCE}).default.verify (clock) -- Testing the requirement
 --			from
 --			until
 --				clock.hour = 23 and then clock.minute = 59
 --			loop
 --				clock.tick
 --			end
---			clock_req.wiki_req (clock)
-			from
-			until
-				clock.hour = 23 and then clock.minute = 59
-			loop
-				clock.tick
-			end
-			({WIKI_REQ}).default.p_is_true_between_q_and_r (clock)
-			print (({WIKI_REQ}).default)
+--			({WIKI_REQ_0}).default.verify (clock)
+--			from
+--			until
+--				clock.hour = 23 and then clock.minute = 59
+--			loop
+--				clock.tick
+--			end
+--			({WIKI_REQ_1}).default.verify (clock)
+			({STATEMENT_4_1}).default.verify (clock)
+			({STATEMENT_4_2}).default.verify (clock)
+--			({WIKI_REQ_4}).default.verify (clock)
+
+
 		end
 
 end
