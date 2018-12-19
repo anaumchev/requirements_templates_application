@@ -72,4 +72,7 @@ feature
 			post_11: old second < 59 and old hour < 24 implies day = old day
 		end
 
+note
+	EIS: "name=Location on GitHub", "protocol=URI", "src=https://github.com/anaumchev/requirements_templates_application/blob/master/implementations/clock.e"
+
 end

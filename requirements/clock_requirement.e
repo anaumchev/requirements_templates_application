@@ -27,5 +27,6 @@ feature
 		end
 
 note
+	EIS: "name=Location on GitHub", "protocol=URI", "src=https://github.com/anaumchev/requirements_templates_application/blob/master/requirements/clock_requirement.e"
 
 end
