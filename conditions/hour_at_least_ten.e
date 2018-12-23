@@ -13,6 +13,6 @@ feature
 		end
 
 note
-	EIS: "name=Location on GitHub", "protocol=URI", "src=https://github.com/anaumchev/requirements_templates_application/blob/master/conditions/hour_at_least_ten.e"
+	EIS: "name=GitHub", "src=https://github.com/anaumchev/requirements_templates_application/blob/master/conditions/hour_at_least_ten.e"
 
 end
