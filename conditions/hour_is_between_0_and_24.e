@@ -7,11 +7,6 @@ inherit
 
 feature
 
-	out: STRING
-		do
-			Result := "hour is between 0 and 24"
-		end
-
 	holds (clock: CLOCK): BOOLEAN
 		do
 			Result := clock.hour >= 0 and then clock.hour <= 24

@@ -1,5 +1,5 @@
 expanded class
-	HOURS_MINUTES
+	DISPLAY_COLON_SEPARATED_PAIR_OF_NUMBERS
 
 inherit
 
@@ -12,11 +12,6 @@ feature
 			Result := system.out.occurrences (':') = 1
 			Result := Result and then system.out.substring (1, system.out.index_of (':', 1) - 1).is_number_sequence
 			Result := Result and then system.out.substring (system.out.index_of (':', 1) + 1, system.out.count).is_number_sequence
-		end
-
-	out: STRING
-		do
-			Result := "string representation contains a colon symbol, and the substrings before and after the colon are numeric sequences"
 		end
 
 note

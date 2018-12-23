@@ -9,12 +9,8 @@ feature
 
 	holds (system: CLOCK): BOOLEAN
 		do
-			Result := system.hour = 24 and then system.minute = 0
-		end
-
-	out: STRING
-		do
-			Result := "midnight"
+			Result := system.hour = 24
+			Result := Result and then system.minute = 0
 		end
 
 note

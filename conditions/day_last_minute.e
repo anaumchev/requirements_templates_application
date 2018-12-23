@@ -12,11 +12,6 @@ feature
 			Result := system.hour = 23 and then system.minute = 59
 		end
 
-	out: STRING
-		do
-			Result := "last minute of the day"
-		end
-
 note
 	EIS: "protocol=URI", "src=https://docs.google.com/document/d/1RV38YvrCvhXrVNrVh2I5_hhFDPmKHSOGOZ04aHKdGhg/edit?disco=AAAACdzGrm4"
 	EIS: "name=Location on GitHub", "protocol=URI", "src=https://github.com/anaumchev/requirements_templates_application/blob/master/conditions/day_last_minute.e"
