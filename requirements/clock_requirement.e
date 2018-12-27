@@ -7,26 +7,18 @@ inherit
 
 feature
 
-	init (system: CLOCK)
+	init (clock: CLOCK)
 		do
+			clock.start
 		end
 
-	main (system: CLOCK)
+	main (clock: CLOCK)
 		do
-			system.tick
-		end
-
-	time_unit: STRING
-		do
-			Result := "clock tick"
-		end
-
-	time_growth: INTEGER
-		do
-			Result := 1
+			clock.tick
 		end
 
 note
 	EIS: "name=GitHub", "src=https://github.com/anaumchev/requirements_templates_application/blob/master/requirements/clock_requirement.e"
 
 end
+

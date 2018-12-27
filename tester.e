@@ -10,7 +10,7 @@ feature
 		local
 			clock: CLOCK
 		do
-			create clock
+			create clock.start;
 			({STATEMENT_0}).default.verify (clock)
 			({STATEMENT_1_1}).default.verify (clock)
 			({STATEMENT_1_2}).default.verify (clock)
@@ -18,8 +18,6 @@ feature
 			({STATEMENT_3}).default.verify (clock)
 			({STATEMENT_4_1}).default.verify (clock)
 			({STATEMENT_4_2}).default.verify (clock)
-
-
 
 			print (({STATEMENT_0}).default)
 			print (({STATEMENT_1_1}).default)

@@ -8,7 +8,17 @@ inherit
 			out
 		end
 
+create
+	start
+
 feature
+
+	start
+		do
+			hour := 0
+			minute := 0
+			second := 0
+		end
 
 	out: STRING
 		do
