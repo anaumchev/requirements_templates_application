@@ -29,6 +29,6 @@ feature
 		end
 
 note
-	EIS: "name=GitHub", "src=https://github.com/anaumchev/requirements_templates_application/blob/master/tester.e"
+	EIS: "name=GitHub", "src=https://tinyurl.com/yao6a3zq"
 
 end

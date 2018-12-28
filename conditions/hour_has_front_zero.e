@@ -13,7 +13,7 @@ feature
 		end
 
 note
-	EIS: "name=Source", "src=https://docs.google.com/document/d/1RV38YvrCvhXrVNrVh2I5_hhFDPmKHSOGOZ04aHKdGhg/edit?disco=AAAACdzGrnA"
-	EIS: "name=GitHub", "src=https://github.com/anaumchev/requirements_templates_application/blob/master/conditions/hour_has_front_zero.e"
+	EIS: "name=Source", "src=https://tinyurl.com/ych2heel"
+	EIS: "name=GitHub", "src=https://tinyurl.com/y9xohwon"
 
 end

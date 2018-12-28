@@ -14,7 +14,7 @@ feature
 		end
 
 note
-	EIS: "name=Source", "src=https://docs.google.com/document/d/1RV38YvrCvhXrVNrVh2I5_hhFDPmKHSOGOZ04aHKdGhg/edit?disco=AAAACdzGrm4"
-	EIS: "name=GitHub", "src=https://github.com/anaumchev/requirements_templates_application/blob/master/conditions/day_last_minute.e"
+	EIS: "name=Source", "src=https://tinyurl.com/yapjv8fl"
+	EIS: "name=GitHub", "src=https://tinyurl.com/y98kypv3"
 
 end

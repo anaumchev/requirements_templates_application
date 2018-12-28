@@ -8,7 +8,7 @@ inherit
 	CLOCK_REQUIREMENT
 
 note
-	EIS: "name=Source", "src=https://docs.google.com/document/d/1RV38YvrCvhXrVNrVh2I5_hhFDPmKHSOGOZ04aHKdGhg/edit?disco=AAAACd2i1Bc", "protocol=URI"
-	EIS: "name=GitHub", "src=https://github.com/anaumchev/requirements_templates_application/blob/master/requirements/statement_1_1.e", "protocol=URI"
+	EIS: "name=Source", "src=https://tinyurl.com/y7xf5rnk"
+	EIS: "name=GitHub", "src=https://tinyurl.com/yats6l8r"
 
 end

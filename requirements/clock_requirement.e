@@ -18,7 +18,7 @@ feature
 		end
 
 note
-	EIS: "name=GitHub", "src=https://github.com/anaumchev/requirements_templates_application/blob/master/requirements/clock_requirement.e"
+	EIS: "name=GitHub", "src=https://tinyurl.com/yb8lmkpm"
 
 end
 

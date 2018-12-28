@@ -83,6 +83,6 @@ feature
 		end
 
 note
-	EIS: "name=GitHub", "src=https://github.com/anaumchev/requirements_templates_application/blob/master/implementations/clock.e"
+	EIS: "name=GitHub", "src=https://tinyurl.com/ycq8bvoh"
 
 end
