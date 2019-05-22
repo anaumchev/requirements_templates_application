@@ -1,9 +1,3 @@
-note
-	description: "Summary description for {PANTOGRAPH_REQUIREMENT}."
-	author: ""
-	date: "$Date$"
-	revision: "$Revision$"
-
 deferred class
 	PANTOGRAPH_REQUIREMENT
 
@@ -17,5 +11,9 @@ feature
 		do
 			system.main
 		end
+
+note
+	EIS: "name=Source", "src=https://docs.google.com/document/d/1EHWeuRRAmadFxkWUuGilHxPU2cXo_0tH7SfWXfReOOY/edit"
+	EIS: "name=GitHub", "src=https://github.com/anaumchev/requirements_templates_application/blob/master/pantograph_requirement.e"
 
 end

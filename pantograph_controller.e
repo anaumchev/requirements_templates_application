@@ -3,6 +3,7 @@ note
 	author: ""
 	date: "$Date$"
 	revision: "$Revision$"
+	
 
 expanded class
 	PANTOGRAPH_CONTROLLER
