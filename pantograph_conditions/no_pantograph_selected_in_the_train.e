@@ -1,5 +1,5 @@
 expanded class
-	PANTOGRAPH_SELECTED_IN_THE_TRAIN
+	NO_PANTOGRAPH_SELECTED_IN_THE_TRAIN
 
 inherit
 
@@ -9,7 +9,7 @@ feature
 
 	holds (system: PANTOGRAPH_CONTROLLER): BOOLEAN
 		do
-			Result := system.mps_spantoselected_g
+			Result := not system.mps_panto_selected
 		end
 
 end
