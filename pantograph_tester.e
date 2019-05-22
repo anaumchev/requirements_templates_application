@@ -14,6 +14,7 @@ feature
 
 	run
 		do
+			print (({REQ_1}).default)
 		end
 
 end

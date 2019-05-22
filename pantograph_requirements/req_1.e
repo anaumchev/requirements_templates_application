@@ -1,12 +1,10 @@
-note
-	description: "Summary description for {REQ_1}."
-	author: ""
-	date: "$Date$"
-	revision: "$Revision$"
-
 expanded class
 	REQ_1
+
 inherit
---	ABSENCE_AFTER []
---	PANTOGRAPH_REQUIREMENT
+
+	ABSENCE_AFTER [PANTOGRAPH_CONTROLLER, PANTOGRAPH_SELECTED_IN_THE_TRAIN, EXTERNAL_POWER_SUPPLY_IS_ACTIVE]
+
+	PANTOGRAPH_REQUIREMENT
+
 end
