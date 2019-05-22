@@ -7,5 +7,6 @@ note
 expanded class
 	REQ_1
 inherit
-	
+--	ABSENCE_AFTER []
+--	PANTOGRAPH_REQUIREMENT
 end
