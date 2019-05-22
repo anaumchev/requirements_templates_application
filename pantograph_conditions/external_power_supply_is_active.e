@@ -1,4 +1,4 @@
-deferred class
+expanded class
 	EXTERNAL_POWER_SUPPLY_IS_ACTIVE
 
 inherit
