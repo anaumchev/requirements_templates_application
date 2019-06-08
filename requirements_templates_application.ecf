@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<system xmlns="http://www.eiffel.com/developers/xml/configuration-1-19-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.eiffel.com/developers/xml/configuration-1-19-0 http://www.eiffel.com/developers/xml/configuration-1-19-0.xsd" name="requirements_templates_application" uuid="79944FFC-6C1B-4119-922A-75DE9456854D">
+<system xmlns="http://www.eiffel.com/developers/xml/configuration-1-20-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.eiffel.com/developers/xml/configuration-1-20-0 http://www.eiffel.com/developers/xml/configuration-1-20-0.xsd" name="requirements_templates_application" uuid="79944FFC-6C1B-4119-922A-75DE9456854D">
 	<target name="requirements_templates_application">
-		<root class="PANTOGRAPH_TESTER" feature="run"/>
+		<root class="REQUIREMENTS_VALIDATOR" feature="paraphrase"/>
 		<option warning="false" full_class_checking="false" is_attached_by_default="false" is_obsolete_routine_type="true" syntax="transitional" manifest_array_type="mismatch_warning">
 			<assertions precondition="true" postcondition="true" check="true" invariant="true" loop="true" supplier_precondition="true"/>
 		</option>
 		<setting name="console_application" value="true"/>
+		<setting name="dead_code_removal" value="feature"/>
 		<capability>
 			<catcall_detection support="none"/>
 			<concurrency support="none"/>
 			<void_safety support="none" use="none"/>
 		</capability>
 		<library name="base" location="$ISE_LIBRARY\library\base\base.ecf"/>
-		<library name="requirements_templates" location="C:\Program Files\Eiffel Software\EiffelStudio 18.07 GPL\library\requirements_templates\requirements_templates.ecf"/>
+		<library name="requirements_templates" location="C:\Program Files\Eiffel Software\EiffelStudio 19.05 GPL\library\requirements_templates\requirements_templates.ecf"/>
+		<library name="testing" location="$ISE_LIBRARY\library\testing\testing.ecf"/>
 		<cluster name="requirements_templates_application" location=".\" recursive="true">
 			<file_rule>
 				<exclude>/.svn$</exclude>
