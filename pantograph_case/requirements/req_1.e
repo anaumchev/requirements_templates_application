@@ -7,7 +7,4 @@ inherit
 
 	PANTOGRAPH_REQUIREMENT
 
-note
-	EIS: "name=Source", "src=https://docs.google.com/document/d/1EHWeuRRAmadFxkWUuGilHxPU2cXo_0tH7SfWXfReOOY/edit?disco=AAAACtsadnQ"
-
 end
