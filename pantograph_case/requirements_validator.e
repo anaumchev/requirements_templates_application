@@ -14,4 +14,7 @@ feature
 			print (req_1)
 		end
 
+note
+	EIS: "name=GitHub", "src=https://github.com/anaumchev/requirements_templates_application/blob/master/pantograph_case/requirements_validator.e"
+
 end

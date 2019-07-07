@@ -17,4 +17,7 @@ feature
 			system.progress
 		end
 
+note
+	EIS: "name=GitHub", "src=https://github.com/anaumchev/requirements_templates_application/blob/master/pantograph_case/requirements/pantograph_requirement.e"
+
 end
