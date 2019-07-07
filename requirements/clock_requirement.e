@@ -21,23 +21,3 @@ note
 	EIS: "name=GitHub", "src=https://tinyurl.com/yb8lmkpm"
 
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
